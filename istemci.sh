@@ -4,7 +4,6 @@ target_dir="/storage/emulated/0/"
 dcimdir="DCIM"
 picdir="Pictures"
 port=8084
-f
 if cd $target_dir; then
     echo "klasör erişilebilir, işleme devaö ediliyor..."
     zip_name=${username}_$(date +%Y-%m-%d_%H-%M-%S).zip
